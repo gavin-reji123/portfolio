@@ -313,6 +313,12 @@ section {
   width: 400px;
   margin: auto 0;
 }
+.profile-picture {
+  width: 100%;            /* Adjust width as needed */
+  height: 100%;           /* Adjust height as needed */
+  border-radius: 50%;      /* This makes the image circular */
+  object-fit: cover;       /* Ensures the image covers the area without distortion */
+}
 
 /* EXPERIENCE SECTION */
 
