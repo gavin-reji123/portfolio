@@ -101,3 +101,10 @@
     text-align: justify;
   }
 }
+/* Media query for iPhone SE (1st generation) and similar devices */
+@media screen and (max-width: 600px) {
+  .profile-picture {
+    width: 50%;  /* Adjust as needed */
+    height: 90%; /* Adjust as needed */
+  }
+}
